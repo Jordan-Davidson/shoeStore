@@ -126,8 +126,9 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 
+
 CORS_ORIGIN_WHITELIST = [
-    'https://localhost:8000'
+    "http://localhost:3000"
 ]
 
 CORS_ALLOW_METHODS = [
@@ -137,4 +138,5 @@ CORS_ALLOW_METHODS = [
     'PATCH',
     'POST',
     'PUT',
+    'FETCH'
 ]
